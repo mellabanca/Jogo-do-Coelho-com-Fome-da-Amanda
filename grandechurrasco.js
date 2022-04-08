@@ -12,5 +12,15 @@ class Grandechurrasco{
 
         })
         World.add(engine.world,this.link)
-    }
+       }
+
+cabou(){
+    World.remove(engine.world,this.link)  
+}
+
+
+
+
+
+
 }
